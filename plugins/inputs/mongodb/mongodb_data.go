@@ -207,6 +207,7 @@ var WiredTigerExtStats = map[string]string{
 	"wtcache_pages_queued_for_eviction":    "PagesQueuedForEviction",
 	"wtcache_pages_read_into":              "PagesReadIntoCache",
 	"wtcache_pages_requested_from":         "PagesRequestedFromCache",
+	"wtcache_pages_written_from":           "PagesWrittenFromCache",
 	"wtcache_server_evicting_pages":        "ServerEvictingPages",
 	"wtcache_worker_thread_evictingpages":  "WorkerThreadEvictingPages",
 	"wtcache_internal_pages_evicted":       "InternalPagesEvicted",
